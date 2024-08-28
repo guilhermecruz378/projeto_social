@@ -44,3 +44,19 @@ iframe#tela {
 
     
 }
+section#rede-social {
+    text-align: right;
+}
+section#rede-social img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.481) ;
+    box-sizing: border-box;
+}
+section#rede-social img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.606);
+    transform: translate(-3px, -3px);
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.773);
+    transition: transform 0.6s, border 0.4s; /*transition é o tempo que eu quiser de alguma coisa, o delei de uma função visual acontecer*/
+}
